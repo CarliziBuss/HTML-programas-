@@ -1,0 +1,46 @@
+<!DOCTYPEhtml >
+<html> _ _
+< cabeça >
+  < title > Exemplo de JavaScript </ title >
+<script> _ _
+documento . write ( "<b>Exemplo 01: Uso de variáveis</b><br><br>" ) ;
+// variável
+var  variavel01  =  'Este é um' ;
+var  variavel02  =  'exemplo!<br><br>' ; 
+// concatenação
+var  texto  =  variavel01  +  variavel02 ;
+// imprimir resultado
+documento . escrever ( texto ) ;
+documento . write ( "<b>Exemplo 02: Resolvedor aprovado</b><br><br>" ) ;
+varx  = 10 ; _  
+var  a  =  1 ;
+varb  = 5 ; _  
+varc  = 6 ; _  
+var  f  =  a * x * x + b * x + c ;
+documento . escreva ( `Resultado de f( ${ x } )=( ${ a } )( ${ x } )^2+( ${ b } )( ${ x } )+ ${ c } = ${ f } ` ) ;
+documento . write ( "<br><br><b>Exemplo 03: Imprimir os números de 1 até 10</b><br><br>" ) ;
+// Laço
+var  n  =  10 ;
+for ( var  i = 1 ;  i <= 10 ;  i ++ )  {
+  documento . escreva ( i ) ;  // Imprime o número
+  // imprime "," entre os números
+  se  ( i < n )  {
+    documento . escreva ( “,” ) ;
+  }
+}
+função  mostrar_números_aleatorios ( )  {
+  // gera números entre 0 e 1
+  var  numero_aleatorio  =  Math . aleatório ( ) * 10 ; 
+  // apresenta pop-up  
+  alert ( numero_aleatorio ) ; 
+}
+</ script > </ head >
+< corpo >
+< p  style =" font-family:arial; color: red; " >
+O trecho acima usa JavaScript. < br >
+Este texto está em < b > HTML </ b > e usa < b > CSS </ b > . < br >
+</p> _ _
+< b > Exemplo 04: Chamada de função JAVASCRIPT: </ b >
+< input  type = botão  onClick =" mostrar_numeros_aleatorios() " value =" Gerar valores aleatórios " >
+</ corpo >
+</html> _ _
