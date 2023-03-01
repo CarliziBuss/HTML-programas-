@@ -1,0 +1,13 @@
+<html> _ _
+< cabeça >
+	< meta  charset =" utf-8 " >
+	< title > Estilo Embutido(Inline Styles) </ title >
+</ cabeça >
+< corpo >
+	< p > Este é o primeiro parágrafo. </p> _ _
+	< p > Este é o segundo parágrafo. </p> _ _
+	< p  style =" font-family:arial; color: red; " >
+		Este é o terceiro parágrafo.
+	</p> _ _
+</ corpo >
+</html> _ _
